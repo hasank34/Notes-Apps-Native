@@ -46,7 +46,7 @@ const ButterflyAnimation = () => {
       <Animated.View style={[styles.butterfly, butterflyStyle]}>
         {/* Kelebek resmi */}
         <Image
-          source={require("../assets/kelebek.png")} // Resminizi buraya ekleyin
+          source={require("../assets/bulut.png")} // Resminizi buraya ekleyin
           style={styles.butterflyImage}
         />
       </Animated.View>

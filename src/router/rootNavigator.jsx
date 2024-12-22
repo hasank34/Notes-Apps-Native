@@ -12,7 +12,7 @@ const RootNavigator = () => {
       <Stack.Screen
         options={{
           headerStyle: {
-            backgroundColor: "#D8A7B1",
+            backgroundColor: "#800080",
             shadowColor: "#D8A7B1",
             shadowOffset: { width: 0, height: 2 },
             shadowOpacity: 0.2,
@@ -21,6 +21,11 @@ const RootNavigator = () => {
           },
           contentStyle: {
             backgroundColor: "#F5F5F5",
+          },
+          headerTitleStyle: {
+            color: "#FFFFFF",
+            fontWeight: "600",
+            fontSize: 20,
           },
         }}
         name={TASKS}
